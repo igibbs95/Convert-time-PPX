@@ -1,0 +1,7 @@
+def convert_time(h, m):
+  min = h * 60 + m
+  return min
+h = int(input("Enter hours: "))
+m = int(input("Enter mins: "))
+m = convert_time(h, m)
+print("Total minutes: ", m)
